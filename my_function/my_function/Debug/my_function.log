@@ -1,0 +1,108 @@
+﻿  my_function.cpp
+e:\leetcode\my_function\my_function\peng.h(945): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(970): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1160): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1185): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1560): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1584): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1606): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1633): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1643): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(106): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(108): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(174): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(182): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(206): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(207): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(217): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(218): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(253): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(255): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(299): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(308): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(333): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(334): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(343): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(344): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(469): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(471): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(523): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(531): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(550): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(558): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(617): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(619): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(667): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(676): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(696): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(705): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(958): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(960): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1012): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1226): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1534): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1539): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1544): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1554): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1571): warning C4018: '>': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1577): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1582): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1588): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1593): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1618): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1624): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1800): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1814): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1818): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1828): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1855): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1876): warning C4018: '>=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\my_function.cpp(1897): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(803): warning C4018: '>': signed/unsigned 不相符
+  e:\leetcode\my_function\my_function\peng.h(802): note: 編譯 類別 樣板 成員函式 'int Peng::min_indexed_PQ<double,std::less<T1>>::sink(int)' 時
+          with
+          [
+              T1=double
+          ]
+  e:\leetcode\my_function\my_function\peng.h(767): note: 請參閱所要編譯的函式 樣板 具現化 'int Peng::min_indexed_PQ<double,std::less<T1>>::sink(int)' 之參考
+          with
+          [
+              T1=double
+          ]
+  e:\leetcode\my_function\my_function\peng.h(1397): note: 查看要編譯的 類別 樣板 具現化 'Peng::min_indexed_PQ<double,std::less<T1>>' 參考
+          with
+          [
+              T1=double
+          ]
+e:\leetcode\my_function\my_function\peng.h(806): warning C4018: '<=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(790): warning C4018: '>': signed/unsigned 不相符
+  e:\leetcode\my_function\my_function\peng.h(789): note: 編譯 類別 樣板 成員函式 'int Peng::min_indexed_PQ<double,std::less<T1>>::swimup(int)' 時
+          with
+          [
+              T1=double
+          ]
+  e:\leetcode\my_function\my_function\peng.h(833): note: 請參閱所要編譯的函式 樣板 具現化 'int Peng::min_indexed_PQ<double,std::less<T1>>::swimup(int)' 之參考
+          with
+          [
+              T1=double
+          ]
+e:\leetcode\my_function\my_function\peng.h(504): warning C4018: '>=': signed/unsigned 不相符
+  e:\leetcode\my_function\my_function\peng.h(503): note: 編譯 類別 樣板 成員函式 'int Peng::heap<Peng::edge,std::less<Peng::edge>>::sink(int)' 時
+  e:\leetcode\my_function\my_function\peng.h(539): note: 請參閱所要編譯的函式 樣板 具現化 'int Peng::heap<Peng::edge,std::less<Peng::edge>>::sink(int)' 之參考
+  e:\leetcode\my_function\my_function\peng.h(1377): note: 查看要編譯的 類別 樣板 具現化 'Peng::heap<Peng::edge,std::less<Peng::edge>>' 參考
+e:\leetcode\my_function\my_function\peng.h(507): warning C4018: '<=': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(487): warning C4018: '>=': signed/unsigned 不相符
+  e:\leetcode\my_function\my_function\peng.h(486): note: 編譯 類別 樣板 成員函式 'int Peng::heap<Peng::edge,std::less<Peng::edge>>::swimup(int)' 時
+  e:\leetcode\my_function\my_function\peng.h(556): note: 請參閱所要編譯的函式 樣板 具現化 'int Peng::heap<Peng::edge,std::less<Peng::edge>>::swimup(int)' 之參考
+  test.cpp
+e:\leetcode\my_function\my_function\peng.h(945): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(970): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1160): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1185): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1560): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1584): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1606): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1633): warning C4018: '<': signed/unsigned 不相符
+e:\leetcode\my_function\my_function\peng.h(1643): warning C4018: '<': signed/unsigned 不相符
+  正在產生程式碼...
+  my_function.vcxproj -> E:\leetcode\my_function\Debug\my_function.exe

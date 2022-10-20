@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  my_function.cpp
+e:\leetcode\my_function\my_function\my_function.cpp(6): fatal error C1083: 無法開啟包含檔案: 'head.h': No such file or directory
+  test.cpp
+e:\leetcode\my_function\my_function\test.cpp(3): fatal error C1083: 無法開啟包含檔案: 'head.h': No such file or directory
+  正在產生程式碼...
