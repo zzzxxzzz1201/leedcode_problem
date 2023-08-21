@@ -1,14 +1,14 @@
-﻿  pch.cpp
-  my_function.cpp
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(945,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(970,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1160,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1185,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1560,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1584,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1606,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1633,22): warning C4018: '<': signed/unsigned 不相符
+﻿  my_function.cpp
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(955,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(980,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1170,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1195,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1570,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1594,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1616,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1641,122): warning C4305: '引數': 從 'int' 轉換為 'const bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1643,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1653,22): warning C4018: '<': signed/unsigned 不相符
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(106,21): warning C4018: '<': signed/unsigned 不相符
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(108,22): warning C4018: '<': signed/unsigned 不相符
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(174,9): warning C4018: '>=': signed/unsigned 不相符
@@ -38,87 +38,96 @@ C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_funct
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(676,9): warning C4018: '>=': signed/unsigned 不相符
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(696,16): warning C4018: '>=': signed/unsigned 不相符
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(705,16): warning C4018: '>=': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(958,21): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(960,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1012,47): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1226,21): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1534,33): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1539,21): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1544,33): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1554,21): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1571,29): warning C4018: '>': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1577,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1582,34): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1588,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1593,34): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1618,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1624,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1800,18): warning C4018: '>=': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1814,27): warning C4018: '>=': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1814,52): warning C4018: '>=': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1818,21): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1828,21): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1855,18): warning C4018: '>=': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1876,27): warning C4018: '>=': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1876,52): warning C4018: '>=': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1897,21): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(803,14): warning C4018: '>': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(801,7): message : 編譯 類別 樣板 成員函式 'int Peng::min_indexed_PQ<double,std::less<T1>>::sink(int)' 期間
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(923,26): warning C4553: '==': 未使用運算式結果; 您是否想要 '='?
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(956,26): warning C4553: '==': 未使用運算式結果; 您是否想要 '='?
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(993,21): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(995,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1047,47): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1261,21): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1569,33): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1574,21): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1579,33): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1589,21): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1606,29): warning C4018: '>': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1612,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1617,34): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1623,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1628,34): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1653,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1659,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1837,18): warning C4018: '>=': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1851,27): warning C4018: '>=': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1851,52): warning C4018: '>=': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1855,21): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1865,21): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1892,18): warning C4018: '>=': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1913,27): warning C4018: '>=': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1913,52): warning C4018: '>=': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1934,21): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(813,14): warning C4018: '>': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(811,7): message : 編譯 類別 樣板 成員函式 'int Peng::min_indexed_PQ<double,std::less<T1>>::sink(int)' 期間
           with
           [
               T1=double
           ]
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(767,8): message : 請參閱 'Peng::min_indexed_PQ<double,std::less<T1>>::changeKey' 中 'Peng::min_indexed_PQ<double,std::less<T1>>::sink' 的第一個參考
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(777,8): message : 請參閱 'Peng::min_indexed_PQ<double,std::less<T1>>::changeKey' 中 'Peng::min_indexed_PQ<double,std::less<T1>>::sink' 的第一個參考
           with
           [
               T1=double
           ]
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1093,19): message : 請參閱 'Peng::eagerprimmst::visit' 中 'Peng::min_indexed_PQ<double,std::less<T1>>::changeKey' 的第一個參考
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1128,19): message : 請參閱 'Peng::eagerprimmst::visit' 中 'Peng::min_indexed_PQ<double,std::less<T1>>::changeKey' 的第一個參考
           with
           [
               T1=double
           ]
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1397,26): message : 請參考正在進行編譯的 類別 樣板 具現化 'Peng::min_indexed_PQ<double,std::less<T1>>'
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1407,26): message : 請參考正在進行編譯的 類別 樣板 具現化 'Peng::min_indexed_PQ<double,std::less<T1>>'
           with
           [
               T1=double
           ]
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(806,27): warning C4018: '<=': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(790,14): warning C4018: '>': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(788,7): message : 編譯 類別 樣板 成員函式 'int Peng::min_indexed_PQ<double,std::less<T1>>::swimup(int)' 期間
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(816,27): warning C4018: '<=': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(800,14): warning C4018: '>': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(798,7): message : 編譯 類別 樣板 成員函式 'int Peng::min_indexed_PQ<double,std::less<T1>>::swimup(int)' 期間
           with
           [
               T1=double
           ]
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(833,10): message : 請參閱 'Peng::min_indexed_PQ<double,std::less<T1>>::insert' 中 'Peng::min_indexed_PQ<double,std::less<T1>>::swimup' 的第一個參考
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(843,10): message : 請參閱 'Peng::min_indexed_PQ<double,std::less<T1>>::insert' 中 'Peng::min_indexed_PQ<double,std::less<T1>>::swimup' 的第一個參考
           with
           [
               T1=double
           ]
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1068,12): message : 請參閱 'Peng::eagerprimmst::eagerprimmst' 中 'Peng::min_indexed_PQ<double,std::less<T1>>::insert' 的第一個參考
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1103,12): message : 請參閱 'Peng::eagerprimmst::eagerprimmst' 中 'Peng::min_indexed_PQ<double,std::less<T1>>::insert' 的第一個參考
           with
           [
               T1=double
           ]
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(504,14): warning C4018: '>=': signed/unsigned 不相符
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(502,7): message : 編譯 類別 樣板 成員函式 'int Peng::heap<Peng::edge,std::less<Peng::edge>>::sink(int)' 期間
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(539,8): message : 請參閱 'Peng::heap<Peng::edge,std::less<Peng::edge>>::pop' 中 'Peng::heap<Peng::edge,std::less<Peng::edge>>::sink' 的第一個參考
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(970,23): message : 請參閱 'Peng::kruskalmst::kruskalmst' 中 'Peng::heap<Peng::edge,std::less<Peng::edge>>::pop' 的第一個參考
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1377,28): message : 請參考正在進行編譯的 類別 樣板 具現化 'Peng::heap<Peng::edge,std::less<Peng::edge>>'
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(549,8): message : 請參閱 'Peng::heap<Peng::edge,std::less<Peng::edge>>::pop' 中 'Peng::heap<Peng::edge,std::less<Peng::edge>>::sink' 的第一個參考
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(1005,23): message : 請參閱 'Peng::kruskalmst::kruskalmst' 中 'Peng::heap<Peng::edge,std::less<Peng::edge>>::pop' 的第一個參考
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1387,28): message : 請參考正在進行編譯的 類別 樣板 具現化 'Peng::heap<Peng::edge,std::less<Peng::edge>>'
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(507,27): warning C4018: '<=': signed/unsigned 不相符
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(487,14): warning C4018: '>=': signed/unsigned 不相符
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(485,7): message : 編譯 類別 樣板 成員函式 'int Peng::heap<Peng::edge,std::less<Peng::edge>>::swimup(int)' 期間
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(556,4): message : 請參閱 'Peng::heap<Peng::edge,std::less<Peng::edge>>::push' 中 'Peng::heap<Peng::edge,std::less<Peng::edge>>::swimup' 的第一個參考
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(963,18): message : 請參閱 'Peng::kruskalmst::kruskalmst' 中 'Peng::heap<Peng::edge,std::less<Peng::edge>>::push' 的第一個參考
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(566,4): message : 請參閱 'Peng::heap<Peng::edge,std::less<Peng::edge>>::push' 中 'Peng::heap<Peng::edge,std::less<Peng::edge>>::swimup' 的第一個參考
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\my_function.cpp(998,18): message : 請參閱 'Peng::kruskalmst::kruskalmst' 中 'Peng::heap<Peng::edge,std::less<Peng::edge>>::push' 的第一個參考
   test.cpp
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(945,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(970,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1160,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1185,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1560,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1584,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1606,22): warning C4018: '<': signed/unsigned 不相符
-C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1633,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(955,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(980,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1170,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1195,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1570,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1594,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1616,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1641,122): warning C4305: '引數': 從 'int' 轉換為 'const bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
 C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1643,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(1653,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(504,14): warning C4018: '>=': signed/unsigned 不相符
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(502,7): message : 編譯 類別 樣板 成員函式 'int Peng::heap<int,std::greater<int>>::sink(int)' 期間
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(549,8): message : 請參閱 'Peng::heap<int,std::greater<int>>::pop' 中 'Peng::heap<int,std::greater<int>>::sink' 的第一個參考
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\test.cpp(89,10): message : 請參閱 'main' 中 'Peng::heap<int,std::greater<int>>::pop' 的第一個參考
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\test.cpp(88,13): message : 請參考正在進行編譯的 類別 樣板 具現化 'Peng::heap<int,std::greater<int>>'
+C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\my_function\Peng.h(507,27): warning C4018: '<=': signed/unsigned 不相符
   正在產生程式碼...
   my_function.vcxproj -> C:\Users\A4103\OneDrive\桌面\leedcode_problem\my_function\Debug\my_function.exe

@@ -4,7 +4,7 @@
 using namespace std;
 #ifndef Peng_H
 #define Peng_H
-
+//test
 namespace Peng
 {
 	//use in leetcode
@@ -236,7 +236,7 @@ namespace Peng
 			cout << input.at(input.size() - 1) << endl;
 	}
 
-	template <class T>
+	template <typename T>
 	void exch(vector<T>& input, typename vector<T>::size_type i, typename vector<T>::size_type j)
 	{
 		T temp = input.at(i);
@@ -301,7 +301,7 @@ namespace Peng
 			for (typename vector<T1>::size_type i = incre; i < input_size; i++)
 			{
 				for (typename vector<T1>::size_type j = i; j >= incre; j -= incre)
-					if (f(input.at(j), input.at(j - 1)))
+					if (f(input.at(j), input.at(j - h)))
 						exch(input, j, j - h);
 					else
 						break;
@@ -363,20 +363,20 @@ namespace Peng
 	template<typename T1>
 	T1 medianOf3(T1 a, T1 b, T1 c)
 	{
-		if ((a > b) ^ (a > c))
+		if ((a >= b) ^ (a <= c) || (a<= b) ^ (a>=c))
 			return a;
-		else if ((b < a) ^ (b < c))
+		else if ((b >= a) ^ (b <= c) || (b <= a) ^ (b >= c))
 			return b;
 		else
 			return c;
 	}
-	template<typename T1, typename  T2 = less<T1>>
+	template<typename T1, typename  T2 = less_equal<T1>>
 	void quick_sort_sub(vector<T1> &input, int lo, int hi, T2 f = T2());
 
-	template<typename T1, typename  T2 = less<T1>>
+	template<typename T1, typename  T2 = less_equal<T1>>
 	int partition(vector<T1> &input, int lo, int hi, T2 f = T2());
 
-	template<typename T1, typename  T2 = less<T1>>
+	template<typename T1, typename  T2 = less_equal<T1>>
 	void quick_sort(vector<T1> &input, T2 f = T2())//這個正常來說要用在沒有重複值的序列上
 	{
 		quick_sort_sub(input, 0, input.size() - 1, f);
@@ -506,7 +506,7 @@ namespace Peng
 			int key = 0;
 			while ((index + 1) * 2 <= heap_array.size())
 			{
-				if ((index + 1) * 2 == heap_array.size())
+				if ((index + 1) * 2 == heap_array.size()) //只有左節點時會發生
 					key = (index + 1) * 2 - 1;
 				else
 				{
@@ -530,8 +530,18 @@ namespace Peng
 		{
 			if (heap_array.empty())
 			{
-				cout << "heap is empty" << endl;
-				throw out_of_range("heap is empty");
+				try {
+					throw out_of_range("heap is empty");
+				}
+				catch (exception &e)
+				{
+					cout << e.what() << endl;
+					return T1();//不確定是否可以
+				}
+				catch (...)
+				{
+					return T1();//不確定是否可以
+				}
 			}
 			T1 pop_num = heap_array.front();
 			exch(heap_array, 0, heap_array.size() - 1);
@@ -709,8 +719,8 @@ namespace Peng
 		typename vector<T1>::size_type NMAX = 0;
 		T2 f = T2();
 		mutable vector<T1> heap_array;//類別初始化 只能用預設初始化或者提供=號的初始器
-		mutable vector<int> heap_index;
-		mutable vector<int> edge_index;
+		mutable vector<int> heap_index;//紀錄該min_tree第N個最小vertex
+		mutable vector<int> edge_index;//紀錄該vertex連結到min_tree最小值排名
 
 		min_indexed_PQ()
 		{
@@ -825,11 +835,11 @@ namespace Peng
 			return index;
 		}
 
-		void insert(int i, T1 key) {
+		void insert(int i, T1 value) { 
 			N++;
-			edge_index.at(i) = N;
-			heap_index.at(N) = i;
-			heap_array.at(i) = key;
+			edge_index.at(i) = N;  //紀錄該vertex連結到min_tree最小值排名
+			heap_index.at(N) = i;  //紀錄該min_tree第N個最小vertex
+			heap_array.at(i) = value;
 			swimup(N);
 		}
 
@@ -1061,7 +1071,7 @@ namespace Peng
 			}
 		}
 
-		void charsame2(bool order = true)//字元用，大小寫相同aAbB........  order控制正向反向，ture正向，false反向
+		void charsame2(bool order = true)//字元用，大小寫相同AaBb........  order控制正向反向，ture正向，false反向
 		{
 			bucket_array.clear();
 			if (order)
@@ -1622,13 +1632,13 @@ namespace Peng
 		digraph goal;
 	};
 
-	class topological_sort
+	class topological_sort//要先確定有沒有cycle,回傳true有cycle
 	{
 	public:
 		deque<int>  reverse_postorder;
 		vector<int>  postorder;
 		vector<int>  preorder;
-		topological_sort(const digraph& g) : goal(g), marked(g.adjacency_list.size(), false)
+		topological_sort(const digraph& g) : goal(g), marked(g.adjacency_list.size(),false), onstack(g.adjacency_list.size(), -1),cycle(false), edge_from(g.adjacency_list.size(),-1)
 		{
 			for (int h = 0; h < goal.adjacency_list.size(); h++)
 			{
@@ -1638,7 +1648,7 @@ namespace Peng
 				}
 			}
 		}
-		topological_sort(const edge_weighted_digraph& g) :goal2(g), marked(g.adjacency_list.size(), false)
+		topological_sort(const edge_weighted_digraph& g) :goal2(g), marked(g.adjacency_list.size(), false), onstack(g.adjacency_list.size(), false), cycle(false), edge_from(g.adjacency_list.size(), -1)
 		{
 			for (int h = 0; h < goal2.adjacency_list.size(); h++)
 			{
@@ -1648,19 +1658,23 @@ namespace Peng
 				}
 			}
 		}
-
-		void dfs(int source);
-		void dfs_weigted_digraph(int source);
-		bool has_cycle();
+		bool cycle_test(void);
+		
+		bool dfs(int source);//回傳是否有cycle
+		bool dfs_weigted_digraph(int source); //回傳是否有cycle
 		vector<int> print_topology();
 		vector<int> print_postorder();
 		vector<int> print_preorder();
 	private:
 		vector<bool> marked;
+		vector<bool> onstack;
+		vector<int> cycle_path;
+		vector<int> edge_from;
+		bool cycle;
 		digraph goal;
 		edge_weighted_digraph goal2;
 	};
-
+	void integer_lsd_bucket_sort(vector<int>& input, bool direct);
 	void inner_msd_bucket_sort(vector<string> &input, vector<string> &aux, bucket<char> &input_bucket, int lo, int hi, int d = 0); //hi要放size - 1
 	void msd_bucket_sort(vector<string> &input, bucket<char> char_bucket);
 	void lsd_bucket_sort(vector<string> &input, bucket<char> input_bucket);
@@ -1673,7 +1687,7 @@ namespace Peng
 	unsigned int input_string(string name, unsigned int num, vector<string>& input, char delim = '\n');
 	unsigned int input_string_filter(string name, unsigned int num, vector<string>& input, char delim = '\n');
 
-	int binary_search(vector<int>& input, int point);//回傳index
+	int binary_search(vector<int>& input, int point);//回傳index, 該目標位置
 	string opsite_string(const string input);//ex:Today is a good day ->  day good a is Today
 
 	template <class T>

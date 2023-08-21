@@ -207,11 +207,11 @@ namespace Peng
 			for (int j = 0; j < adjacency_list.at(i).size(); j++)
 			{
 				adjacency_matrix.at(i).at(j) = 1;
-				adjacency_matrix.at(j).at(i) = 1;
+				adjacency_matrix.at(j).at(i) = 1; 
 			}
 	}
 
-	void graph::adli_to_inma()
+	void graph::adli_to_inma()//這應該有錯
 	{
 		incident_matrix.push_back(vector<int>(adjacency_list.size(), 0));
 		for (int i = 0; i < adjacency_list.size(); i++)
@@ -898,36 +898,71 @@ namespace Peng
 		return id_num.at(v) == id_num.at(w);
 	}
 
-	void topological_sort::dfs(int source)
+	bool topological_sort::dfs(int source)//要先確定有沒有cycle,回傳true有cycle
 	{
 		marked.at(source) = true;
-		preorder.push_back(source);
-		for (int i : goal.adj(source))
-		{
-			if (marked.at(i) == false)
-			{
-				//edge_from.at(i) = source;//之後可以做印出cycle(目前還沒做)
-				dfs(i);
-			}
-		}
-		reverse_postorder.push_front(source);
-		postorder.push_back(source);
-	}
-
-	void topological_sort::dfs_weigted_digraph(int source)
-	{
-		marked.at(source) = true;
+		onstack.at(source) = true;
 		preorder.push_back(source);
 		for (const auto i : goal2.adj(source))
 		{
-			if (marked.at(i.to()) == false)
+			if (onstack.at(i.to()) == true)
+			{
+				int start = i.to();
+				int vec = i.to();
+				cycle_path.push_back(start);
+				while (edge_from.at(vec) != start)
+				{
+					vec = edge_from.at(vec);
+					cycle_path.push_back(vec);
+				}
+				return true;
+			}
+			else if (marked.at(i.to()) == false)
 			{
 				//edge_from.at(i) = source;//之後可以做印出cycle(目前還沒做)
-				dfs_weigted_digraph(i.to());
+				edge_from.at(i.to()) == source;
+				if (dfs(i.to()))
+					return true;
 			}
 		}
 		reverse_postorder.push_front(source);
 		postorder.push_back(source);
+		onstack.at(source) = false;
+		return false;
+	}
+
+	bool topological_sort::dfs_weigted_digraph(int source)//要先確定有沒有cycle,回傳true有cycle
+	{
+		marked.at(source) = true;
+		onstack.at(source) = true;
+		preorder.push_back(source);
+		for (const auto i : goal2.adj(source))
+		{
+			if (onstack.at(i.to()) == true)
+			{
+				int start = i.to();
+				int vec = i.to();
+				cycle_path.push_back(start);
+				while (edge_from.at(vec) != start)
+				{
+					vec = edge_from.at(vec);
+					cycle_path.push_back(vec);
+				}
+				return true;
+			}
+			else if (marked.at(i.to()) == false)
+			{
+				//edge_from.at(i) = source;//之後可以做印出cycle(目前還沒做)
+				edge_from.at(i.to()) == source;
+				if (dfs_weigted_digraph(i.to()))
+					return true;
+			}
+		}
+		reverse_postorder.push_front(source);
+		postorder.push_back(source);
+		onstack.at(source) = false;
+		return false;
+
 	}
 
 	vector<int> topological_sort::print_topology()
@@ -1571,7 +1606,7 @@ namespace Peng
 			if (input.at(i).length() > d)
 				d = input.at(i).length();
 		}
-		vector<int> count(input_bucket.size() + 2, 0);
+		vector<int> count(input_bucket.size() + 2, 0);//+2的原因是有空格
 		for (int h = d - 1; h >= 0; h--)    //h紀錄第一項(最長自串的最後一個index)
 		{
 			for (int i = 0; i < count.size(); i++)  //count歸零
@@ -1689,11 +1724,13 @@ namespace Peng
 		{
 			if (num <= 0)
 				return;
-			for (unsigned int i = 0; i < num - 1 && i < output_data.size(); i++)
+			for (unsigned int i = 0; i < num - 1 && i < output_data.size()-1; i++)
 				ofile << output_data.at(i) << delim;
 
 			if (output_data.size() >= num)
 				ofile << output_data.at(num - 1);
+			else if(num > output_data.size())
+				ofile << output_data.at(output_data.size()-1);
 		}
 		else
 		{
