@@ -1,4 +1,4 @@
-## leecode problem
+## leetcode problem
 
 | number  | questions |
 | ------------- |:-------------:|
